@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/reset_menu"
+        android:title="@string/reset_menu"
+        android:orderInCategory="1"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_reset" />
+    <item
+        android:title="EDIT"
+        android:icon="@drawable/ic_edit"
+        android:orderInCategory="2"
+        app:showAsAction="always"
+        android:id="@+id/edit_menu"/>
+    <item
+        android:id="@+id/setting_menu"
+        android:title="SETTING"
+        app:showAsAction="always"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_setting"/>
+</menu>
